@@ -1,0 +1,43 @@
+.tableRow {
+  display: grid;
+  grid-template-columns: 48px 120px 160px 128px 146px 430px 316px 60px;
+  color: #1f2939;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  height: 52px;
+  max-width: 1392px;
+  padding: 6px 0px 6px 0px;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e5eb;
+  border-spacing: 2;
+}
+
+.tableData {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 12px 10px 12px;
+}
+
+.textDescription {
+  color: #5e6674;
+}
+
+.buttonColumn {
+  margin-left: -38px;
+}
+
+.buttonColumn > button {
+  opacity: 0;
+}
+
+.tableRow:hover {
+  background: #f7f8f9;
+  cursor: pointer;
+}
+
+.tableRow:hover * {
+  opacity: 1;
+  cursor: pointer;
+}

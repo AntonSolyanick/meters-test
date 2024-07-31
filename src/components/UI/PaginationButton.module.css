@@ -1,0 +1,24 @@
+.wrapper {
+  display: none;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e0e5eb;
+  border-radius: 6px;
+  background: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  margin-right: 8px;
+}
+.wrapper:hover {
+  cursor: pointer;
+}
+
+.current {
+  background: #f2f5f8;
+}
+
+.showButton {
+  display: inline;
+}

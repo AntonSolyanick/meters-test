@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 0;
+  border: none;
+  background: #fee3e3;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.wrapper:hover {
+  background: #fed7d7;
+  cursor: pointer;
+}
+
+.wrapper:hover * {
+  fill: #9b2c2c;
+}
